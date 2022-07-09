@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>
+            Веб-разработка
+        </title>
+            <style>
+
+                .double {
+                    border-style: double;
+                    border-color: #4caf50;
+                    width: 400px;
+                    height: 400px;}
+  
+
+
+               .btn {
+                border-color: #f1c40f;
+                color: rgb(141, 12, 12);
+                background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+                background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+                background-position: 100%;
+                background-size: 400%;
+                -webkit-transition: background 300ms ease-in-out;
+                transition: background 300ms ease-in-out;
+                margin: top;
+            }
+                .btn:hover {
+                background-position: 0;
+            }
+
+            .item{
+                padding-top: 150px;
+                padding-left: 200px;
+                padding-right: 200px;
+                width: 300px;
+                height: 600px;
+                border-radius: 30px;
+            }
+            .item-img{
+                box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+        
+            }
+            
+            .item-btn{
+                margin-bottom:23px;
+                margin-top:23px;
+            }              
+
+            figure p {
+            margin-bottom: 0; /* Отступ снизу */
+            }
+
+            .figcaption{text-align: center;}
+
+            .container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+.text{
+    font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+ </style>                 
+    </head> 
+    <body>
+      
+
+      
+<div class ="item double">
+    <div class="container">
+    <div class ="item-img">
+       <p> <img src="E:\1111\1000_F_108143194_bsd8KmQLVAyrVjROscQJ4oYTQKAQ7sLZ (1).jpg" width="300" height="300"  alt="Тут картинка" class="item-img"> </p>
+  <div class ="figcaption" > <figcaption> ЗДЕСЬ КАКОЙ-ТО ТЕКСТ  </figcaption> </div>
+    <div class="overlay">
+        <div class="text">АНИМАЦИЯ НА КАРТИНКЕ</div>
+      </div>
+    </div>
+
+    <div class="item-btn">
+        <button class = "btn">
+            Кнопкаааа
+        </button> 
+     
+    </div>
+
+        </div>
+
+
+    </body>    
+</html>        
+        
